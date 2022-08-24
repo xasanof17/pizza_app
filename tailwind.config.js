@@ -8,9 +8,16 @@ module.exports = {
         body: "#f9f9f9",
         primary: "#ff7010",
         black: "#191919",
-        red: "#191919",
+        red: "#E23535",
         gray: "#f0f0f0",
       },
+      fontWeight: {
+        regular: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
+        extrabold: 800,
+      }
     },
   },
   plugins: [],
