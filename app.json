@@ -3,9 +3,14 @@
     "name": "pizza",
     "slug": "bandit pizza",
     "version": "1.0.0",
+    "owner": "bandit-pizza",
     "orientation": "portrait",
     "icon": "./static/splash.png",
     "userInterfaceStyle": "light",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bandit-pizza/pizza.git"
+    },
     "splash": {
       "image": "./static/splash.jpg",
       "resizeMode": "contain",
@@ -26,6 +31,7 @@
     },
     "web": {
       "favicon": "./static/splash.png"
-    }
+    },
+    "plugins": ["expo-build-properties"]
   }
 }
