@@ -1,0 +1,51 @@
+const drinks = [
+    {
+        img: `https://storum.ru/image/cache/products/360669-800x800.png`,
+        title: 'Adrenaline Gamefuel',
+        text: ``,
+        cost: '199 ₽',
+        xit: false,
+        new: false,
+    },
+    {
+        img: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloliiC-yqFfe1GngisD2aJHMm2EOMZHuc1A&usqp=CAU`,
+        title: 'Pepsi MAX',
+        text: ``,
+        cost: '99 ₽',
+        xit: false,
+        new: false,
+    },
+    {
+        img: `https://api.lochin.uz/media/file/image/2020-08/32dbd0bb-36ec-447c-afdc-f6275a7ec3b5.jpg.500x500_q85_crop-scale.jpg`,
+        title: 'Pepsi',
+        text: ``,
+        cost: '99 ₽',
+        xit: false,
+        new: false,
+    },
+    {
+        img: `https://thumbs.dreamstime.com/b/%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8F-%D0%B4%D0%B8%D0%BA%D0%B0%D1%8F-%D0%B2%D0%B8%D1%88%D0%BD%D1%8F-pepsi-%D0%B2-%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D0%BE%D0%BC-%D0%B0%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D0%B8-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-222947939.jpg`,
+        title: 'Pepsi Дикая вишня',
+        text: ``,
+        cost: '99 ₽',
+        xit: false,
+        new: false,
+    },
+    {
+        img: `https://media.takealot.com/covers_images/feb3365a25e441488142181d85ce15f7/s-zoom.file`,
+        title: 'Pepsi Light',
+        text: ``,
+        cost: '99 ₽',
+        xit: false,
+        new: false,
+    },
+    {
+        img: `https://img.fix-price.com/800x800/images/origin/origin/0be9b9d18964c92ccd7400c762b4fa05.jpg`,
+        title: 'Mirinda',
+        text: ``,
+        cost: '99 ₽',
+        xit: false,
+        new: false,
+    },
+]
+export default drinks;

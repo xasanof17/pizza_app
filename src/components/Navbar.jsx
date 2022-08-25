@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Image, Text, View, TouchableOpacity } from "react-native";
 import { MenuIcon } from "react-native-heroicons/outline";
 import { MapIcon } from "react-native-heroicons/outline";
 import { images } from "../constants";
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
   return (
     <View className="bg-[#f9f9f9]">
       <View className="py-3 border-b-2 border-[#F0F0F0]">
@@ -34,7 +35,10 @@ const Navbar = () => {
             <Text className="font-semibold text-black ">Куда Пицца</Text>
           </View>
           <View className="flex items-center justify-center">
-            <TouchableOpacity className="flex items-center justify-center">
+            <TouchableOpacity
+              className="flex items-center justify-center"
+              onPress={() => alert("You press this button")}
+            >
               <MenuIcon fontSize={35} color="#191919" />
             </TouchableOpacity>
           </View>

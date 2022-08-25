@@ -30,7 +30,7 @@ const Cards = () => {
     <ScrollView horizontal className="mb-[30px]">
       {cards.map((card, i) => (
         <View
-          className={`flex-col items-center justify-start mr-2 rounded-xl ${card.bg} h-[320px]`}
+          className={`flex-col items-center justify-start mr-5 rounded-xl ${card.bg} h-[320px]`}
           key={i}
         >
           <View className="flex items-center justify-center mb-7">
