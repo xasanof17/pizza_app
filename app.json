@@ -1,37 +1,45 @@
 {
   "expo": {
     "name": "pizza",
-    "slug": "bandit pizza",
+    "slug": "pizza",
     "version": "1.0.0",
-    "owner": "bandit-pizza",
+    "owner": "xasanof17",
+    "description": "This is Pizza app.",
     "orientation": "portrait",
-    "icon": "./static/splash.png",
+    "icon": "./static/icon.png",
     "userInterfaceStyle": "light",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/bandit-pizza/pizza.git"
-    },
     "splash": {
-      "image": "./static/splash.jpg",
+      "image": "./static/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#fff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xasanof17.pizza"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./static/splash.png",
+        "foregroundImage": "./static/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.xasanof17.pizza"
     },
     "web": {
-      "favicon": "./static/splash.png"
+      "favicon": "./static/icon.png"
     },
-    "plugins": ["expo-build-properties"]
+    "plugins": [
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "26110229-0da0-4f97-978a-5f89e9e71420"
+      }
+    }
   }
 }
